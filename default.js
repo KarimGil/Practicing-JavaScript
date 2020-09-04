@@ -95,11 +95,58 @@ console.log(newNumbers.sort(function(a,b) {return b-a}))
 
 let emptyarray = []
 
-
-
 for(let value = 0; value<10; value++){
   emptyarray.push(value)
 }
 
 console.log(emptyarray)
+
+//objects in JS
+
+let student = {
+    firstname:'Karim', 
+    lastname:'Gilani', 
+    age:23, 
+    height:'5.11ft',
+    studentInfo : function info() {
+        console.log("i'm running")
+    }
+  
+}
+
+console.log(student.firstname)
+console.log(student.lastname)
+
+student.age++
+console.log(student.age)
+student.studentInfo()
+
+//if else JS
+
+// age = prompt('What is your age?')
+
+// if (age>17 && age<36){
+//     status= 'target audience'
+//     console.log(status)
+// }
+// else{
+//     status = 'Not my audience'
+//     console.log(status)
+// }
+
+// switch case JS
+
+day = prompt("What's the day today")
+
+switch (day)
+{
+
+    case 'Friday','friday','Saturday','saturday','Sunday','sunday':
+        console.log("It's weekend")
+        break
+   
+
+    default:
+        console.log("It's weekday")
+}
 

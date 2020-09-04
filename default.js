@@ -136,17 +136,23 @@ student.studentInfo()
 
 // switch case JS
 
-day = prompt("What's the day today")
+  day = prompt("What's the day today?")
+ switch(day){
 
-switch (day)
-{
-
-    case 'Friday','friday','Saturday','saturday','Sunday','sunday':
+    case 'Friday':
         console.log("It's weekend")
         break
-   
 
+
+
+    case 'Saturday':
+        console.log("It's weekend")
+        break
+
+    case 'Sunday':
+        console.log("It's weekend")
+        break
     default:
         console.log("It's weekday")
-}
+ }
 
